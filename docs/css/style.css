@@ -1,6 +1,90 @@
+/* General */
+
+.row {
+    margin: 0;
+}
+
+.container {
+    padding: 70px 0;
+}
+
+p,
+li {
+    color: #444;
+    font-size: 14px;
+}
+
 /* Slideshow */
 
-#mainSlider .carousel-inner, #mainSlider .carousel-item {
+#mainSlider .carousel-inner,
+#mainSlider .carousel-item {
     height: 90vh;
 }
 
+/* About */
+
+#about-area {
+    background-color: #F9F9F9;
+}
+
+.main-title {
+    color: #444;
+    margin: 0 0 65px 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+#about-title {
+    font-size: 17px;
+    color: #444;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#about-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+#about-list li {
+    line-height: 30px;
+}
+
+#about-list i {
+    color: #65DAF9;
+    margin-right: 15px;
+}
+
+/* Specialities */
+
+.specialities-box {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.specialities-box i,
+.specialities-box h4 {
+    transition: .5s;
+}
+
+.specialities-box i {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.specialities-box h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.specialities-box:hover>i,
+.specialities-box:hover>h4 {
+    color: #65DAF9;
+}
+
+/* Team */
+
+.card-body {
+    text-align: center;
+}
